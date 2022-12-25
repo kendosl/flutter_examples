@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:mvvm_with_provider_example_2/components/app_title.dart';
+import 'package:mvvm_with_provider_example_2/user_list/models/user_list_model.dart';
 
 class UserListRow extends StatelessWidget {
   final UserModel userModel;
