@@ -8,14 +8,14 @@ String usersListModelToJson(List<UserModel> data) =>
 
 class UserModel {
   UserModel({
-    required this.id,
-    required this.name,
-    required this.username,
-    required this.email,
-    required this.address,
-    required this.phone,
-    required this.website,
-    required this.company,
+    this.id,
+    this.name,
+    this.username,
+    this.email,
+    this.address,
+    this.phone,
+    this.website,
+    this.company,
   });
 
   int id;
