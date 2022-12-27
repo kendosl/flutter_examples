@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:mvvm_with_provider_example_3/fringilla/view/fringilla.view.dart';
 import 'package:mvvm_with_provider_example_3/home/view/home.view.dart';
+import 'package:mvvm_with_provider_example_3/pellen/view/pellen.view.dart';
 
 class NamedRoute {
   NamedRoute._();
