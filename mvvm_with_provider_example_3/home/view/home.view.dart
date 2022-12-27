@@ -70,6 +70,7 @@ class _HomeViewState extends State<HomeView> {
           ),
         );
       },
+      child: LoadingComponent(),
     );
   }
 }
